@@ -1,0 +1,16 @@
+name: GFF
+type: theme
+description: A cuddly GFF theme that offers extra fluffiness.
+core: 8.x
+base: bootstrap
+libraries:
+  - gff/global-styling
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize.css
+regions:
+  header: Header
+  headmenu: Head Menu
+  banner: Main image and taglline
+  content: Content  # the content region is required
+  footermenu: Footer Menu
