@@ -2,7 +2,7 @@ name: GFF
 type: theme
 description: A cuddly GFF theme that offers extra fluffiness.
 core: 8.x
-base: bootstrap
+base theme: bootstrap
 libraries:
   - gff/global-styling
 stylesheets-remove:
